@@ -9,9 +9,17 @@ import jakarta.persistence.Id;
 public class StudentEntity{
 
     @Id
-    @GeneratedValue(strategy =  GenerationType)
+    @GeneratedValue(strategy =  GenerationType.IDENTITY)
     private long id;
     private String name;
     private String email;
     private float cgpa;
+
+    public void setName(String name){
+        this.name = name;
+    }
+    public void setEmail(String email){
+        return this.email;
+    }
+    public string Email
 }
