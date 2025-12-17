@@ -18,8 +18,19 @@ public class StudentEntity{
     public void setName(String name){
         this.name = name;
     }
+    public String getName(){
+        return this.name;
+    }
     public void setEmail(String email){
+         this.email = Email;
+    }
+    public void getEmail(String email){
         return this.email;
     }
-    public string Email
+    public string setChpa(String cgpa){
+        this.Cgpa=cgpa;
+    }
+    public void getCgpa(String cgpa){
+        
+    }
 }
